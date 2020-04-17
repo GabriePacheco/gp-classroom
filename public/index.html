@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GP Classroom</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    
+
+    <script defer src="/__/firebase/7.14.1/firebase-app.js"></script>
+
+    <script defer src="/__/firebase/7.14.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.14.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.14.1/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.14.1/firebase-storage.js"></script>
+
+    <script defer src="/__/firebase/init.js"></script>
+    
+   
+  </head>
+  <body>
+    <div id = "app" class="grey">
+      <div class="row">
+        <div id ="documento"  class="col m8">
+          <div class="card">
+            <div class="card-content"> 
+              
+            </div>  
+          </div>
+        </div>
+        <div class=" barra col m4">
+          <div id = 'video' class="col m12">
+            <div  class="card">
+               <a class='dropdown-trigger right' href='#' data-target='dropdown1'><i class= 'material-icons'>more_horiz</i></a>
+
+
+                  <ul id='dropdown1' class='dropdown-content'>
+
+                    <li><a id = "cameraBtn" href="#!"><i class="material-icons">videocam_off</i>Camara</a></li>
+                    <li><a id= "micBtn" href="#!"><i class="material-icons">mic_off</i>Microfono</a></li>
+                  </ul>
+
+            </div>
+           </div> 
+          <div id ="participantes" class="col m12">
+            <div class="card">
+              <div class="card-content"> 
+                
+              </div>              
+            </div>            
+          </div>
+          <div  id = "chat" class="col m12">
+            <div class="card">
+              <div class="card-content"> 
+               
+              </div>              
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/jq.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
+s

@@ -1,0 +1,23 @@
+#documento{
+	height: 100% !important;
+	
+}
+#app .row {
+	height: 100% !important;
+
+}
+.card{
+	height: 98% !important;
+}
+.barra{
+	height: 98% !important;
+}
+#video{
+	height: 33% !important;
+}
+#participantes{
+	height: 33% !important;
+}
+#chat{
+	height: 33% !important;
+}
